@@ -1,18 +1,47 @@
-
-footer{
-	background-image: url(../images/tile2.png);
-	height: 350px;
-	width: 100%;
+*{
+ color: #8F03E3;
+ font-family: "Oswald",sans-serif;
 }
 
-.me{
- 	text-align:center;
- 	padding: 10% 0% 4%;
+p{
+	color:black;
 }
 
-section{
+#nav {
+ margin: 15px 0 0 0;
+}
+ 
+#nav ul li {
+ display: inline;
+ margin: 0 70px 0 0;
+ position: relative;
+ left: 30%; 
+}
+ 
+#nav a {
+ text-decoration: none;
+ color: black;
+ font-size: 15px;
+}
+
+#headerimg{
+	background-image: url(../images/background.jpg);
+    height: 540px;
+}
+
+#logo{
+	
+	margin:100px 0px 0px 5px;
+	margin-left: 450px;
+}
+
+.here1{
+	text-align: center;
+	color: white;
+}
+
+.aboutme{
 	background-image: url(../images/tile1.png);
-	height: 400px;
 	width: 100%;
 }
 
@@ -22,12 +51,38 @@ section{
 }
 
 .profile{
-	border: 1px solid;
+	border: 1px solid #B8B8B8;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
+#cat{
+	text-align: center;
+	margin: 3% 0 2% ;
+}
+
+.kitten{
+	border-radius: 100%;
+	width: 80%; 
+	border: 2px solid purple;
+
+}
+
+footer{
+	background-image: url(../images/tile2.png);
+	width: 100%;
+
+}
+
+.me{
+ 	text-align:center;
+ 	padding: 8% 0% 4%;
+ 	
+}
+/*
 .ico1{
 	margin-left: 21.2rem;
+	margin-bottom: 40px;
 }
 
 .ico2{
@@ -38,31 +93,5 @@ section{
 	margin-left: -2.8rem; 
 }
 
-#headerimg{
-	background-image: url(../images/background.jpg);
-	height: 500px;
-	width: 100%;
 
-	 margin-bottom: 50px;
-     max-width: 500px;
-     height: auto;
 
-}
-
-.container {
- margin-top: 50px;
-}
- 
-#nav {
- margin: 13px 0 0 0;
-}
- 
-#nav ul li {
- display: inline;
- margin: 0 20px 0 0;
- margin-bottom: 130px;
-}
- 
-#nav a {
- text-decoration: none;
-}
