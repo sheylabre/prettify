@@ -1,7 +1,7 @@
 
-.footer{
+footer{
 	background-image: url(../images/tile2.png);
-	height: 380px;
+	height: 350px;
 	width: 100%;
 }
 
@@ -10,15 +10,59 @@
  	padding: 10% 0% 4%;
 }
 
-.about-me{
+section{
 	background-image: url(../images/tile1.png);
-	height: 500px;
+	height: 400px;
 	width: 100%;
 }
+
 .about{
 	text-align:center;
  	padding: 5% 0% 0%;
 }
+
 .profile{
 	border: 1px solid;
+	width: 100%;
+}
+
+.ico1{
+	margin-left: 21.2rem;
+}
+
+.ico2{
+	margin-left: 5.2rem;
+}
+
+.ico3{
+	margin-left: -2.8rem; 
+}
+
+#headerimg{
+	background-image: url(../images/background.jpg);
+	height: 500px;
+	width: 100%;
+
+	 margin-bottom: 50px;
+     max-width: 500px;
+     height: auto;
+
+}
+
+.container {
+ margin-top: 50px;
+}
+ 
+#nav {
+ margin: 13px 0 0 0;
+}
+ 
+#nav ul li {
+ display: inline;
+ margin: 0 20px 0 0;
+ margin-bottom: 130px;
+}
+ 
+#nav a {
+ text-decoration: none;
 }
