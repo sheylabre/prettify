@@ -10,14 +10,18 @@ p{
 #nav {
  margin: 15px 0 0 0;
 }
- 
+
 #nav ul li {
  display: inline;
  margin: 0 70px 0 0;
  position: relative;
- left: 30%; 
+ left: 30%;
 }
- 
+
+#nav ul{
+	margin-left: 6%;
+}
+
 #nav a {
  text-decoration: none;
  color: black;
@@ -30,7 +34,7 @@ p{
 }
 
 #logo{
-	
+
 	margin:100px 0px 0px 5px;
 	margin-left: 450px;
 }
@@ -51,9 +55,10 @@ p{
 }
 
 .profile{
-	border: 1px solid #B8B8B8;
+	border: 1px solid black;
 	width: 100%;
 	margin-bottom: 20px;
+	padding: 3px;
 }
 
 #cat{
@@ -61,10 +66,18 @@ p{
 	margin: 3% 0 2% ;
 }
 
+.cat-file .columns{
+	margin:2% auto;
+}
+.cat-file{
+	margin-left: 6%;
+}
+
 .kitten{
 	border-radius: 100%;
-	width: 80%; 
+	width: 80%;
 	border: 2px solid purple;
+	padding: 3px;
 
 }
 
@@ -77,21 +90,13 @@ footer{
 .me{
  	text-align:center;
  	padding: 8% 0% 4%;
- 	
-}
-/*
-.ico1{
-	margin-left: 21.2rem;
-	margin-bottom: 40px;
+
 }
 
-.ico2{
-	margin-left: 5.2rem;
+.iconos .columns{
+	margin: 1% 0% 5% 0%;
 }
 
-.ico3{
-	margin-left: -2.8rem; 
+.iconos{
+	margin-left: 13%;
 }
-
-
-
